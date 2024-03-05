@@ -1,0 +1,40 @@
+package j;
+
+import com.google.android.gms.common.GoogleApiAvailabilityLight;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.jvm.functions.Function1;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+@Metadata(bv = {}, d1 = {"��.\n\u0002\u0018\u0002\n��\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n��\n\u0002\u0010\u0002\n��\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010��\n\u0002\b\u0006\b\u0002\u0018��*\u0004\b��\u0010\u00012\u00020\u0002B6\u0012\f\u0010\n\u001a\b\u0012\u0004\u0012\u00028��0\u0007\u0012\u001c\u0010\u0010\u001a\u0018\b\u0001\u0012\n\u0012\b\u0012\u0004\u0012\u00028��0\f\u0012\u0006\u0012\u0004\u0018\u00010\r0\u000bø\u0001��¢\u0006\u0004\b\u0011\u0010\u0012J\u0013\u0010\u0006\u001a\u00020\u00052\b\u0010\u0004\u001a\u0004\u0018\u00010\u0003H\u0096\u0002R\u001a\u0010\n\u001a\b\u0012\u0004\u0012\u00028��0\u00078\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\b\u0010\tR-\u0010\u0010\u001a\u0018\b\u0001\u0012\n\u0012\b\u0012\u0004\u0012\u00028��0\f\u0012\u0006\u0012\u0004\u0018\u00010\r0\u000b8\u0002X\u0082\u0004ø\u0001��¢\u0006\u0006\n\u0004\b\u000e\u0010\u000f\u0082\u0002\u0004\n\u0002\b\u0019¨\u0006\u0013"}, d2 = {"Lj/n3;", "R", "Lj/u2;", "", "cause", "", "g0", "Lt/f;", GoogleApiAvailabilityLight.TRACKING_SOURCE_NOTIFICATION, "Lt/f;", "select", "Lkotlin/Function1;", "Lkotlin/coroutines/Continuation;", "", "o", "Lkotlin/jvm/functions/Function1;", "block", "<init>", "(Lt/f;Lkotlin/jvm/functions/Function1;)V", "kotlinx-coroutines-core"}, k = 1, mv = {1, 6, 0})
+/* loaded from: ItsOnFire.jar:j/n3.class */
+public final class n3<R> extends u2 {
+    @NotNull
+
+    /* renamed from: n  reason: collision with root package name */
+    public final t.f<R> f533n;
+    @NotNull
+
+    /* renamed from: o  reason: collision with root package name */
+    public final Function1<Continuation<? super R>, Object> f534o;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public n3(@NotNull t.f<? super R> fVar, @NotNull Function1<? super Continuation<? super R>, ? extends Object> function1) {
+        this.f533n = fVar;
+        this.f534o = function1;
+    }
+
+    @Override // j.g0
+    public void g0(@Nullable Throwable th) {
+        if (this.f533n.i()) {
+            r.a.d(this.f534o, this.f533n.o());
+        }
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public /* bridge */ /* synthetic */ Unit invoke(Throwable th) {
+        g0(th);
+        return Unit.INSTANCE;
+    }
+}

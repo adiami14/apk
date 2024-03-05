@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="flare-on-10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ItsOnFire.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ItsOnFire-unsigned-error.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
